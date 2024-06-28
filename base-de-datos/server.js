@@ -19,7 +19,9 @@ const sequelize = new Sequelize('proyecto-backend', null, null,{
 app.post('/pendientes',function(req,res){
     res.send('Bien hecho, insersion completada');
 });
-
+function(){
+    a+b
+};
 
 // db.run('CREATE TABLE task(id int AUTO_INCREMENT,description varchar(244))');
 // db.close();
